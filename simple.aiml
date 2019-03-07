@@ -1,0 +1,138 @@
+<aiml>
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li>kamu menggodaku ?</li>
+<li>hayo lagi jomblo ya</li>
+<li>jones</li>
+<li>apa ?</li>
+<li>apaan ?</li>
+</random>
+</template>
+</category>
+<category><pattern>HAI</pattern> <template><random>
+<li>hello</li> 
+<li>hello, Siapa Namamu ?</li> 
+<li>halo</li>
+<li>halo, Siapa Namamu ?</li>
+<li>hei</li>
+<li>hei, Siapa Namamu ?</li>
+<li>oi</li>
+</random> </template> </category>
+<category><pattern>HELLO</pattern> <template><random>
+<li>hai</li> 
+<li>hai, Siapa Namamu ??</li> 
+<li>hai...</li>
+<li>hei</li>
+<li>oi</li>
+</random> </template> </category>
+<category>
+<pattern>SAYA *</pattern>
+<template><random>
+<li>Heii, <star></star></li>
+<li>Halo <star></star></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>NAMA SAYA *</pattern>
+<template><random>
+<li>Heii, <star></star></li>
+<li>Halo <star></star> aku DayBot</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>NAMAKU *</pattern>
+<template><random>
+<li>Heii, <star></star></li>
+<li>Halo <star></star></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>NAMAKU ADALAH *</pattern>
+<template><random>
+<li>Heii, <star></star></li>
+<li>Halo <star></star></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>NAMA SAYA ADALAH  *</pattern>
+<template><random>
+<li>Heii, <star></star></li>
+<li>Halo <star></star></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>KAMU TAU *</pattern>
+<template>Tidak, apa itu <star></star></template>
+</category> 
+<category>
+<pattern>* ADALAH *</pattern>
+<template>
+<random>
+<li>terima kasih telah memberi tahu tentang <star></star></li>
+<li>ooh <star></star> adalah itu toh </li>
+<li>ooh</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>SIAPA PROGRAMERMU *</pattern>
+<template>dia seorang OTAKU</template>
+</category>
+
+  <category>
+    <pattern>DAYBOT</pattern>
+    <template>IYA</template>
+ </category>
+
+ <category>
+    <pattern>NGAPAIN TUH</pattern>
+    <that>IYA</that>
+    <template>LAGI BELAJAR</template>
+ </category>
+ <category>
+    <pattern>RAJIN BANGET</pattern>
+    <that>LAGI BELAJAR</that>
+    <template> IYA DONG DAYBOT HARUS RAJIN </template>
+ </category>
+<category>
+    <pattern>HAHA * </pattern>
+    <template> KOK KETAWA </template>
+ </category>
+ <category>
+    <pattern> * </pattern>
+    <that>KOK KETAWA</that>
+    <template> :V </template>
+ </category>
+ <category>
+    <pattern>HAHA</pattern>
+    <template> KOK KETAWA </template>
+ </category>
+ <category>
+    <pattern> * </pattern>
+    <that>KOK KETAWA</that>
+    <template> :V </template>
+ </category>
+ 
+<category>
+      <pattern> SIAPA ITU DAYAT </pattern>
+      <template>Dayat adalah gamer yang tak dianggap</template>
+   </category>
+   <category>
+      <pattern> SIAPA ITU RIFQI </pattern>
+      <template>Dia seorang Otaku :V</template>
+   </category>
+   <category>
+      <pattern>KAMU TAU * </pattern>
+      <template>
+         <srai>SIAPA ITU <star/></srai>
+      </template>
+   </category>
+</aiml>
